@@ -5,45 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Klearance</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/200f152f3a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="path/to/logo.png" alt="Klearance Logo">
-            <h1>KLEARANCE</h1>
-        </div>
+        <div class="logo">KLEARANCE</div>
         <nav>
-            <a href="#">HOME</a>
-            <a href="#">ABOUT US</a>
-            <a href="#">CONTACT</a>
-            <div class="user-icon">
-                <img src="path/to/user-icon.png" alt="User Icon">
-            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#" class="sign-up">Sign Up</a></li>
+            </ul>
         </nav>
     </header>
-
     <main>
-        <div class="search-container">
-            <input type="text" placeholder="Search">
-            <input type="text" placeholder="Location">
-            <button>ENTER</button>
+        <div class="search-section">
+            <form>
+                <input type="text" placeholder="Search" class="search-input">
+                <input type="text" placeholder="Location" class="location-input">
+                <button type="submit" class="enter-button">Enter</button>
+            </form>
         </div>
     </main>
-
     <footer>
         <div class="footer-content">
-            <p>SHOP WITH <span class="highlight">KLEARANCE</span></p>
-            <div class="footer-links">
-                <a href="#">Disclaimer</a>
-                <a href="#">Terms & Condition</a>
+            <div class="shop-with">
+                <h3>Shop with Klearance</h3>
+                <ul>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
             </div>
-        </div>
-        <div class="social-icons">
-            <a href="#"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="path/to/twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="path/to/youtube-icon.png" alt="YouTube"></a>
-            <a href="#"><img src="path/to/playstore-icon.png" alt="Play Store"></a>
-            <a href="#"><img src="path/to/linkedin-icon.png" alt="LinkedIn"></a>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-google-play"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
         </div>
     </footer>
 </body>
